@@ -8,21 +8,20 @@ func main() {
 	fmt.Println("-- MENU --")
 	fmt.Println("1. cek angka == 10")
 	fmt.Println("2. cek genap ganjil")
-	fmt.Print("Masukkan Pilihan : ")
+	fmt.Print("masukkan pilihan : ")
 	fmt.Scan(&pilihan)
 
 	switch pilihan {
 	case 1:
-		fmt.Print("Masukkan angka : ")
+		fmt.Print("masukkan angka : ")
 		fmt.Scan(&angka)
-
 		if angka == 10 {
 			fmt.Println("angka adalah 10")
 		} else {
 			fmt.Println("angka bukan 10")
 		}
 	case 2:
-		fmt.Println("Masukkan angka")
+		fmt.Print("masukkan angka : ")
 		fmt.Scan(&angka)
 		if angka%2 == 0 {
 			fmt.Println("angka genap")
@@ -30,6 +29,6 @@ func main() {
 			fmt.Println("angka ganjil")
 		}
 	default:
-		fmt.Println("Pilihan Tidak Valid")
+		fmt.Println("Pilihan tidak valid")
 	}
 }
