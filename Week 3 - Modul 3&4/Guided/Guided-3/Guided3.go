@@ -24,7 +24,7 @@ func main() {
 
 	fmt.Println("Masukkan harga barang : ")
 	fmt.Scan(&price)
-	fmt.Println("Masukkan jumlah barag : ")
+	fmt.Println("Masukkan jumlah barang : ")
 	fmt.Scan(&qty)
 
 	hitungTotal(price, qty)
