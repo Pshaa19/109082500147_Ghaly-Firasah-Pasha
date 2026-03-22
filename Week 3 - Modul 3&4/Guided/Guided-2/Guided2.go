@@ -14,7 +14,7 @@ func tambahReference(x *int) {
 
 func main() {
 	var y int = 5
-	fmt.Println("Nilai awala : ", y)
+	fmt.Println("Nilai awal : ", y)
 
 	tambahValue(y)
 	fmt.Println("Nilai y setelah pass by value : ", y)
